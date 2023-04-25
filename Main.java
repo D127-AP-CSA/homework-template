@@ -1,10 +1,10 @@
 import java.util.Arrays;
 public class Main{
     public static void main(String[] args) {
-        int[] arr = new int[5];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) (Math.random() * 15);
+        String[][] arr = new String[6][6];
+        for (String[] row: arr) {
+            System.out.println(Arrays.toString(row));
         }
-        System.out.println(Arrays.toString(arr));
+        
     }
 }
